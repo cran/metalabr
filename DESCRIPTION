@@ -1,0 +1,46 @@
+Package: metalabr
+Title: Access MetaLab Community-Augmented Meta-Analysis Data
+Version: 1.0.0
+Authors@R: 
+    c(person(given = "Erik",
+             family = "Iverson",
+             role = c("aut"),
+             email = "erik@sigmafield.org"),
+      person(given = "Sara",
+             family = "El-Shawa",
+             email = "sara.el.shawa@utoronto.ca",
+             role = c("aut")),
+      person(given = "Michael C.",
+             family = "Frank",
+             email = "mcfrank@stanford.edu",
+             role = c("aut", "cre"),
+             comment = c(ORCID = "0000-0002-7551-4378")),
+      person("MetaLab contributors", role = "cph"))
+Description: Read released, versioned data from MetaLab
+    (<https://metalab.stanford.edu>), a database of community-augmented
+    meta-analyses of language acquisition and cognitive development;
+    validate candidate datasets against the MetaLab field specification;
+    compute standardized effect sizes; and draw the standard MetaLab
+    visualizations (scatter, violin, forest, and funnel plots) backed by
+    multilevel random-effects models.
+License: MIT + file LICENSE
+URL: https://github.com/langcog/metalabr, https://metalab.stanford.edu
+BugReports: https://github.com/langcog/metalabr/issues
+Encoding: UTF-8
+Imports: assertthat, dplyr, ggplot2, Hmisc, httr, jsonlite, magrittr,
+        metafor, purrr, rlang, stringr, tibble, yaml
+Suggests: knitr, readr, redivis, rmarkdown, testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Additional_repositories: https://langcog.r-universe.dev
+Config/testthat/edition: 3
+RoxygenNote: 7.3.3
+NeedsCompilation: no
+Packaged: 2026-09-28 05:51:36 UTC; mcfrank
+Author: Erik Iverson [aut],
+  Sara El-Shawa [aut],
+  Michael C. Frank [aut, cre] (ORCID:
+    <https://orcid.org/0000-0002-7551-4378>),
+  MetaLab contributors [cph]
+Maintainer: Michael C. Frank <mcfrank@stanford.edu>
+Repository: CRAN
+Date/Publication: 2026-10-08 17:30:07 UTC
